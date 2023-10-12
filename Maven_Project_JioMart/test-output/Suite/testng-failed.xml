@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test in Chrome browser(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="testPack.Verify_Product_page">
+        <methods>
+          <include name="TakeScreenShot_Of_Failed_Test_Methods"/>
+          <include name="Clear_Object"/>
+          <include name="Close_the_Browser"/>
+          <include name="VerifyElectronicsPage"/>
+          <include name="Open_Browser"/>
+          <include name="VerifyProductpage"/>
+          <include name="Creating_POM_Object"/>
+        </methods>
+      </class> <!-- testPack.Verify_Product_page -->
+      <class name="testPack.Verify_Electronics_page">
+        <methods>
+          <include name="Close_Browser"/>
+          <include name="Verifying_Electronics_page"/>
+          <include name="Open_Brower"/>
+          <include name="CreatingPOM_Object"/>
+          <include name="Clear_POM_Object"/>
+        </methods>
+      </class> <!-- testPack.Verify_Electronics_page -->
+      <class name="testPack.Search_bar_functionality">
+        <methods>
+          <include name="Creating_POM_Object"/>
+          <include name="SendKeysInSearchBar"/>
+          <include name="Close_the_Browser"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShot_Of_Failed_Test_Methods"/>
+          <include name="Clear_Object"/>
+        </methods>
+      </class> <!-- testPack.Search_bar_functionality -->
+    </classes>
+  </test> <!-- Test in Chrome browser(failed) -->
+  <test thread-count="5" parallel="classes" name="Test in Firefox browser(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="testPack.Verify_Product_page">
+        <methods>
+          <include name="Clear_Object"/>
+          <include name="TakeScreenShot_Of_Failed_Test_Methods"/>
+          <include name="Close_the_Browser"/>
+          <include name="Open_Browser"/>
+          <include name="VerifyElectronicsPage"/>
+          <include name="VerifyProductpage"/>
+          <include name="Creating_POM_Object"/>
+        </methods>
+      </class> <!-- testPack.Verify_Product_page -->
+      <class name="testPack.Verify_Electronics_page">
+        <methods>
+          <include name="Close_Browser"/>
+          <include name="Verifying_Electronics_page"/>
+          <include name="Open_Brower"/>
+          <include name="Clear_POM_Object"/>
+          <include name="CreatingPOM_Object"/>
+        </methods>
+      </class> <!-- testPack.Verify_Electronics_page -->
+      <class name="testPack.Search_bar_functionality">
+        <methods>
+          <include name="Creating_POM_Object"/>
+          <include name="SendKeysInSearchBar"/>
+          <include name="Close_the_Browser"/>
+          <include name="OpenBrowser"/>
+          <include name="Clear_Object"/>
+          <include name="TakeScreenShot_Of_Failed_Test_Methods"/>
+        </methods>
+      </class> <!-- testPack.Search_bar_functionality -->
+    </classes>
+  </test> <!-- Test in Firefox browser(failed) -->
+  <test thread-count="5" parallel="classes" name="Test in Edge browser(failed)">
+    <parameter name="Browser" value="Edge"/>
+    <classes>
+      <class name="testPack.Verify_Product_page">
+        <methods>
+          <include name="TakeScreenShot_Of_Failed_Test_Methods"/>
+          <include name="Clear_Object"/>
+          <include name="Close_the_Browser"/>
+          <include name="VerifyElectronicsPage"/>
+          <include name="Open_Browser"/>
+          <include name="VerifyProductpage"/>
+          <include name="Creating_POM_Object"/>
+        </methods>
+      </class> <!-- testPack.Verify_Product_page -->
+      <class name="testPack.Verify_Electronics_page">
+        <methods>
+          <include name="Close_Browser"/>
+          <include name="Verifying_Electronics_page"/>
+          <include name="Open_Brower"/>
+          <include name="CreatingPOM_Object"/>
+          <include name="Clear_POM_Object"/>
+        </methods>
+      </class> <!-- testPack.Verify_Electronics_page -->
+      <class name="testPack.Search_bar_functionality">
+        <methods>
+          <include name="Creating_POM_Object"/>
+          <include name="SendKeysInSearchBar"/>
+          <include name="Close_the_Browser"/>
+          <include name="OpenBrowser"/>
+          <include name="Clear_Object"/>
+          <include name="TakeScreenShot_Of_Failed_Test_Methods"/>
+        </methods>
+      </class> <!-- testPack.Search_bar_functionality -->
+    </classes>
+  </test> <!-- Test in Edge browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
